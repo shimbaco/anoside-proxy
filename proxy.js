@@ -7,8 +7,7 @@ httpProxy.createServer({
     'anoside.com/javascripts': 'localhost:8000',
     'anoside.com/stylesheets': 'localhost:8000',
     'anoside.com/favicon.png': 'localhost:8000',
-    'localhost/socket.io': 'localhost:4000',
-    'anoside.com/*': 'localhost:3000',
-    'localhost/socket.io': 'localhost:4000'
+    '/socket.io': 'localhost:4000',
+    'anoside.com/*': 'localhost:3000'
   }
 }).listen(80);
